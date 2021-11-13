@@ -15,9 +15,6 @@ combat.exe: combat.o
 combat.o: combat.c
 	gcc -I $(PATH_ALLEGRO)$(INCLUDE_ALLEGRO) -c combat.c	
 	
-
-
-	
 clean:
 	del combat.o 
 	del combat.exe
